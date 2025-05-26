@@ -3,7 +3,7 @@ import AttendanceChart from "./AttendanceChart";
 import prisma from "@/lib/prisma";
 
 const AttendanceChartContainer = async () => {
-  const today = new Date();
+
   const dayOfWeek = today.getDay();
   const daysSinceMonday = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
 

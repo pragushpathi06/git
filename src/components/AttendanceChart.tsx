@@ -22,8 +22,6 @@ const AttendanceChart = ({
       <BarChart width={500} height={300} data={data} barSize={20}>
         <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#ddd" />
         <XAxis
-          dataKey="name"
-          axisLine={false}
           tick={{ fill: "#d1d5db" }}
           tickLine={false}
         />
